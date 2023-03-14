@@ -12,5 +12,10 @@ app.use(cors({
 app.use(express.json())
 
 app.get('/test', (req, res) => {
-	
+	res.json({
+		heeeeeeeeeeeeeee: 'YA'
+	})
 })
+
+const PORT = process.env.PORT || 776;
+app.listen(PORT, null, () => console.log("Running on " + PORT))
