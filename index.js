@@ -23,5 +23,5 @@ app.get('/test', (req, res) => {
 	})
 })
 
-const PORT = process.env.PORT || 776;
+const PORT = process.env.PORT || 1776;
 app.listen(PORT, null, () => console.log("Running on " + PORT))
