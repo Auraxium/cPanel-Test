@@ -2,6 +2,8 @@ const express = require('express')
 const app = express();
 const cors = require('cors')
 
+// RESULT: CANT, NEED DOMAIN WHICH SUCKS
+
 app.use(cors({
 	origin: "*",
 	credentials: true,
